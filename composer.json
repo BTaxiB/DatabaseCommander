@@ -1,0 +1,17 @@
+{
+    "name": "btaxib/database-commander",
+    "authors": [
+        {
+            "name": "miljanjoksimovic",
+            "email": "miljan.joksimovic.ext@vestiairecollective.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Database\\Connection\\": "Connection/",
+            "Database\\Command\\": "Command/",
+            "Database\\TableManagement\\": "TableManagement/"
+        }
+    },
+    "require": {}
+}
