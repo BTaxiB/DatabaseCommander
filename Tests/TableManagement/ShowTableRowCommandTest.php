@@ -2,7 +2,11 @@
 
 namespace Database\Tests\TableManagement;
 
-class ShowTableRowCommandTest
-{
+use Database\Tests\CommandTestCase;
 
+final class ShowTableRowCommandTest extends CommandTestCase
+{
+    public function testExecute(){
+
+    }
 }
