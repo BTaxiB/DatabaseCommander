@@ -10,8 +10,14 @@
         "psr-4": {
             "Database\\Connection\\": "Connection/",
             "Database\\Command\\": "Command/",
-            "Database\\TableManagement\\": "TableManagement/"
+            "Database\\TableManagement\\": "TableManagement/",
+            "Database\\Tests\\": "Tests/"
         }
     },
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
 }
